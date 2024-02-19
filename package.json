@@ -1,19 +1,26 @@
 {
   "name": "ornate-table",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "React Component for displaying data in a table",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
+    "dev" : "node src/index.tsx",
     "lint": "eslint './{src,app}/**/*.{ts,tsx}'",
     "size": "size-limit",
     "prepare": "npm run build"
   },
+  "size-limit": [
+    {
+      "path": "dist/*.js",
+      "limit": "10 kB"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/helgastogova/npm-react-typescript-template"
+    "url": "https://github.com/donkagunila/ornate-table"
   },
   "keywords": [
     "react",
@@ -23,9 +30,9 @@
   "author": "Olga Stogova <helgastogova@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/helgastogova/npm-react-typescript-template/issues"
+    "url": "https://github.com/donkagunila/ornate-table/issues"
   },
-  "homepage": "https://github.com/helgastogova/npm-react-typescript-template#readme",
+  "homepage": "https://github.com/donkagunila/ornate-table#readme",
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0",
@@ -58,6 +65,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^9.0.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
