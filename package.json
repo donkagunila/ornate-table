@@ -1,6 +1,6 @@
 {
-  "name": "ornate-table",
-  "version": "1.1.2",
+  "name": "@donkagunila/ornate-table",
+  "version": "1.0.0",
   "description": "React Component for displaying data in a table",
   "scripts": {
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
