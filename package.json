@@ -66,6 +66,7 @@
       "npm run lint"
     ]
   },
+  "repository":"https://github.com/donkagunila/ornate-table",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@donkagunila"
   }
