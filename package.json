@@ -1,5 +1,5 @@
 {
-  "name": "@donkagunila/ornate-table",
+  "name": "ornate-table",
   "version": "1.0.0",
   "description": "React Component for displaying data in a table",
   "scripts": {
@@ -68,6 +68,6 @@
   },
   "repository":"https://github.com/donkagunila/ornate-table",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@donkagunila"
+    "registry": "https://npm.pkg.github.com/ornate-table"
   }
 }
