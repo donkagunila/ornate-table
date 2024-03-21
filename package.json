@@ -79,5 +79,6 @@
       "npm run format",
       "npm run lint"
     ]
-  }
+  },
+  "repository":"https://github.com/donkagunila/ornate-table"
 }
