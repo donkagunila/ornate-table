@@ -1,15 +1,16 @@
 import { EmptyIcon } from "../../../lib/icons/EmptyIcon";
 import { Column } from "../OrnateTable.types";
+import  {ReactNode} from "react";
 
 interface EmptyBodyProps {
   columns: Column[];
   options?: {
-    emptyDataMessage?: string | React.ReactNode;
+    emptyDataMessage?: string | ReactNode;
   };
 }
 
 const EmptyBody = (props: EmptyBodyProps) => {
-  const emptyDataText: string | React.ReactNode =
+  const emptyDataText: string | ReactNode =
     props.options?.emptyDataMessage ?? "No records found";
   return (
     <tr>

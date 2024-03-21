@@ -1,1 +1,1 @@
-export * from "./ornate-table";
+export { OrnateTable } from "./ornate-table";

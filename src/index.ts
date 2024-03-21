@@ -1,2 +1,3 @@
 import "./global.css";
-export * from "./components";
+import {OrnateTable} from "./components";
+export default OrnateTable
